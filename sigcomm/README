@@ -1,0 +1,20 @@
+Assignment :- sigcomm
+
+	-> have a process A send a 'message' to another cooperating process B via a real-time signal; the message is an integer value supplied to A as a parameter(s); verify that B receives it. This must continue until B receives the 'stopping' value -1. 
+
+
+	This program cotains to programs namely sender and reciever we need to establish a communication between the processes and data integer values must be transfered through command prompt to the reciever and that communication is ended when the reciever recieves -1 value as input.
+
+To Build the program run the command as follows
+1) make
+	When you run the Make file you will get 2 executable files namely
+		1) sigcom_sender.out
+		2) sigcom_reciever.out
+		
+2) then run the program as follows:- 
+	You need to run the ./sigcom_reciever.out file and you will get the "PID" of the program which is used for communication
+		 
+	Then run the ./sigcom_sender.out in the another terminal and you provide the command in the format of 
+		EX :- ./sigcom_sender.out		PID_obtained_from_sigcom_reciever.out		Data(int)_need to send 
+			
+	The Data you enetered will be seen in the Reciever terminal and when you send the "-1(Data)" as data in sender code the communication will be Terminated.

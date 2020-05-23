@@ -1,0 +1,8 @@
+Assignment :- To Create a Zombie process
+    -> write a C prg to generate a zombie process
+        This programs creates a Zombie process in the system by forking a child process and child complets it's work and terminates and Parent Does it work and terminates and parent does wait for the child to check the exit status which results child to become a zombie process.
+
+
+To Build the Program run the command as follows
+1) make
+2) then run the zombie file.

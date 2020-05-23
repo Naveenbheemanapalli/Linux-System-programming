@@ -1,0 +1,10 @@
+Assignment :- To Create a Orphan process
+
+    -> write a C prg to generate a Orphan process
+
+
+        This programs creates a Orphan process in the system by forking a child process and then the Parent completes it's works and terminates, while in this child process become orphan and Os identifies this and assignes new parent process of init(pid = 1)/systemd(pid = 1412) and in my system only it may differs. 
+
+To Build the Program run the command as follows
+1) make
+2) then run the orphan file

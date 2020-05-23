@@ -1,0 +1,10 @@
+Assignment :- fork 2 children 
+   
+	-> have the parent wait for both to die; ensure zombies are prevented using the signalling mechanism discussed for 2.6 Linux.
+    
+	This program create 2 child processes by forking and each child does their respective work and child will die on that mechanism the parent will get the SIGCHLD signal we are handling the signal with the signal handler and waiting for the child to terminate correctly without becoming the zombie process.
+
+
+To Build the Program run the command as follows
+	1) make
+	2) then run the fork2 file
